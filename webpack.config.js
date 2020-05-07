@@ -32,7 +32,7 @@ module.exports = {
             options: {
               sourceMap: true,
               plugins: (loader) => [
-                new IconfontWebpackPlugin(loader),
+                // new IconfontWebpackPlugin(loader),
                 require('autoprefixer')
               ]
             }
